@@ -1,5 +1,5 @@
 [
   "Usage: ",
   "",
-  " $ lix <text-to-analyze>"
+  " $ lix --text <text-to-analyze>"
 ]
