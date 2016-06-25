@@ -1,6 +1,6 @@
 {
   "name": "lix-cli",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "CLI for LIX calculator",
   "license": "MIT",
   "author": {
@@ -18,7 +18,7 @@
   },
   "preferGlobal": true,
   "engines": {
-    "node": ">=4.4.5"
+    "node": ">=4.4.6"
   },
   "scripts": {
     "test": "standard && tap --reporter=spec test/*.js",
