@@ -37,7 +37,7 @@
     "tap": "8.0.0"
   },
   "dependencies": {
-    "lix": "2.0.1",
+    "lix": "2.0.3",
     "minimist": "1.2.0"
   }
 }
