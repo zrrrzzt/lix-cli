@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict'
 
-const lix = require('lix')
+const lix = require('lix-index')
 const argv = require('minimist')((process.argv.slice(2)))
 const getHelpText = require('./lib/get-help-text')
 const pkg = require('./package.json')

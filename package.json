@@ -11,20 +11,21 @@
   "bugs": {
     "url": "https://github.com/zrrrzzt/lix-cli/issues"
   },
-  "homepage": "https://github.com/zrrrzzt/lix-cli",
+  "homepage": "https://github.com/zrrrzzt/lix-cli#readme",
   "main": "index.js",
   "bin": {
     "lix": "index.js"
   },
   "preferGlobal": true,
   "engines": {
-    "node": ">=4.6.2"
+    "node": ">=8.9.4"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/*.js",
     "coverage": "tap test/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
-    "setup": "npm install && node setup.js"
+    "standard-fix": "standard --fix",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "repository": {
     "type": "git",
@@ -37,7 +38,7 @@
     "tap": "11.0.1"
   },
   "dependencies": {
-    "lix": "3.0.0",
+    "lix-index": "1.0.0",
     "minimist": "1.2.0"
   }
 }
