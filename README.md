@@ -34,5 +34,3 @@ $ lix --text "Dette er en lang tekst. Den har noen, men ikke så mange, kjempeva
 ## License
 
 [MIT](LICENSE)
-
-![Robohash image of lix-cli](https://robots.kebabstudios.party/lix-cli.png "Robohash image of lix-cli")
