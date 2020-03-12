@@ -38,6 +38,6 @@
   },
   "dependencies": {
     "lix-index": "1.0.1",
-    "minimist": "1.2.4"
+    "minimist": "1.2.5"
   }
 }
