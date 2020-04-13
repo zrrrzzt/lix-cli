@@ -18,7 +18,7 @@
   },
   "preferGlobal": true,
   "engines": {
-    "node": ">=10.15.1"
+    "node": ">=12.16.2"
   },
   "scripts": {
     "test": "standard && npm audit && tap --reporter=spec test/*.js",
